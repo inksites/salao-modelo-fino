@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison Íris Cabelos — Cabelo &amp; coloração em Cabo Branco, João Pessoa</title>
+<meta name="description" content="Corte, mechas, coloração e tratamentos pensados pro seu tipo de cabelo. Avaliação antes de começar e horário marcado pelo WhatsApp.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://inksites.github.io/salao-modelo-fino/">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Maison Íris Cabelos">
+<meta property="og:title" content="Maison Íris Cabelos — Cabelo &amp; coloração em Cabo Branco, João Pessoa">
+<meta property="og:description" content="Corte, mechas, coloração e tratamentos pensados pro seu tipo de cabelo. Avaliação antes de começar e horário marcado pelo WhatsApp.">
+<meta property="og:url" content="https://inksites.github.io/salao-modelo-fino/">
+<meta property="og:image" content="https://inksites.github.io/salao-modelo-fino/fotos/cabelo/capa.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%235C6F5E%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-weight%3D%22700%22%20font-size%3D%2236%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preload" as="image" href="fotos/cabelo/capa.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+/* InkSites — estilo do template de negócio local.
+   Um só CSS, dois temas: [data-tema="claro"] e [data-tema="escuro"].
+   A cor de destaque vem do cliente.json (cores.destaque) e entra como --destaque. */
+
+:root{
+  --wa:#25D366; --wa-deep:#1DA851; --wa-ink:#0B2415;
+  --raio:4px;
+}
+
+/* ---------- tema claro (base do antigo demo 2) ---------- */
+[data-tema="claro"]{
+  --fundo:#FFFFFF;
+  --fundo-2:#F7F6F3;
+  --texto:#181B23;
+  --suave:#5F6673;
+  --linha:#E7E5E0;
+  --linha-forte:#D8D5CE;
+  --destaque:#E14226;
+  --display:'Fraunces', Georgia, serif;
+  --corpo:'Manrope', system-ui, sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, monospace;
+  --display-caixa:none;
+  --display-peso:600;
+}
+
+/* ---------- tema escuro (base do antigo demo 1) ---------- */
+[data-tema="escuro"]{
+  --fundo:#15130F;
+  --fundo-2:#1D1A14;
+  --texto:#EFE6D6;
+  --suave:#C2B7A2;
+  --linha:rgba(239,230,214,0.13);
+  --linha-forte:rgba(239,230,214,0.24);
+  --destaque:#D9B578;
+  --display:'Oswald', Impact, sans-serif;
+  --corpo:'Manrope', system-ui, sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, monospace;
+  --display-caixa:uppercase;
+  --display-peso:600;
+}
+
+*{box-sizing:border-box; margin:0; padding:0;}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%;}
+body{background:var(--fundo); color:var(--texto); font-family:var(--corpo); line-height:1.55; overflow-x:hidden;}
+img{max-width:100%; display:block;}
+a{color:inherit;}
+.wrap{max-width:1100px; margin:0 auto; padding:0 24px;}
+:focus-visible{outline:2px solid var(--destaque); outline-offset:3px;}
+
+h1,h2,h3{font-family:var(--display); font-weight:var(--display-peso); text-transform:var(--display-caixa); letter-spacing:.005em;}
+[data-tema="escuro"] h1,[data-tema="escuro"] h2{letter-spacing:.02em;}
+
+/* ---------- faixa de rascunho / demonstração ---------- */
+.faixa{
+  background:#16181D; color:#F7F4EE; font-family:var(--mono); font-size:.76rem;
+  display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap;
+  padding:9px 16px; text-align:center; position:relative; z-index:60;
+}
+.faixa b{color:#E3A23C; font-weight:600;}
+.faixa a{background:#E3A23C; color:#16181D; text-decoration:none; padding:5px 12px; border-radius:2px; font-weight:600; white-space:nowrap;}
+
+/* ---------- cabeçalho ---------- */
+header.topo{
+  position:sticky; top:0; z-index:50;
+  background:color-mix(in srgb, var(--fundo) 90%, transparent);
+  backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linha);
+}
+.topo-inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; max-width:1100px; margin:0 auto;}
+.marca{display:flex; align-items:center; gap:10px; text-decoration:none; min-width:0;}
+.marca img{height:40px; width:auto;}
+.marca-nome{font-family:var(--display); font-weight:var(--display-peso); text-transform:var(--display-caixa); font-size:1.2rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.marca-nome span{color:var(--destaque);}
+.menu{display:flex; gap:26px; list-style:none;}
+.menu a{font-size:.84rem; text-decoration:none; color:var(--suave); transition:color .2s;}
+.menu a:hover{color:var(--texto);}
+.btn-wa-topo{
+  display:inline-flex; align-items:center; gap:8px; white-space:nowrap;
+  background:var(--wa); color:var(--wa-ink); font-weight:700; font-size:.8rem; text-decoration:none;
+  padding:10px 16px; border-radius:var(--raio); transition:background .2s;
+}
+.btn-wa-topo:hover{background:var(--wa-deep);}
+.btn-wa-topo svg{width:16px; height:16px;}
+
+/* ---------- capa (hero) ---------- */
+.capa{padding:64px 0 72px;}
+.capa-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:56px; align-items:center;}
+.selo{font-family:var(--mono); font-size:.74rem; letter-spacing:.14em; text-transform:uppercase; color:var(--destaque); display:flex; align-items:center; gap:10px; margin-bottom:22px;}
+.selo::before{content:''; width:26px; height:1px; background:var(--destaque);}
+.capa h1{font-size:clamp(2.2rem, 5.2vw, 3.9rem); line-height:1.06; max-width:16ch;}
+.capa h1 em{font-style:italic; font-weight:500; color:var(--destaque);}
+[data-tema="escuro"] .capa h1{line-height:1.02;}
+[data-tema="escuro"] .capa h1 em{font-style:normal; font-weight:var(--display-peso);}
+.capa-sub{margin-top:20px; font-size:1.07rem; color:var(--suave); max-width:46ch; line-height:1.65;}
+.acoes{margin-top:30px; display:flex; gap:14px; flex-wrap:wrap; align-items:center;}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px; text-decoration:none;
+  font-weight:700; font-size:.92rem; padding:15px 24px; border-radius:var(--raio);
+  transition:transform .2s ease, background .2s ease, filter .2s ease;
+}
+.btn:hover{transform:translateY(-2px);}
+.btn svg{width:18px; height:18px; flex-shrink:0;}
+.btn-wa{background:var(--wa); color:var(--wa-ink); box-shadow:0 10px 24px rgba(37,211,102,.25);}
+.btn-wa:hover{background:var(--wa-deep);}
+.btn-contorno{border:1px solid var(--linha-forte); color:var(--texto);}
+.btn-contorno:hover{border-color:var(--texto);}
+.numeros{margin-top:44px; display:flex; gap:36px; flex-wrap:wrap;}
+.numeros div{font-size:.8rem; color:var(--suave);}
+.numeros strong{display:block; font-family:var(--display); font-size:1.5rem; color:var(--texto); font-weight:var(--display-peso);}
+.capa-foto{position:relative;}
+.capa-foto img{width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:calc(var(--raio) * 2);}
+[data-tema="claro"] .capa-foto::after{content:''; position:absolute; inset:14px -14px -14px 14px; border:1px solid var(--destaque); border-radius:calc(var(--raio) * 2); z-index:-1;}
+[data-tema="escuro"] .capa-foto img{filter:saturate(.85) contrast(1.05);}
+
+/* ---------- faixa de poste (assinatura do tema escuro) ---------- */
+.poste{display:none;}
+[data-tema="escuro"] .poste{
+  display:block; height:8px; width:100%;
+  background:repeating-linear-gradient(45deg, #7C2E2A 0 16px, #EFE6D6 16px 32px, #2C4A52 32px 48px);
+  background-size:200% 100%; animation:poste 7s linear infinite;
+}
+@keyframes poste{from{background-position:0 0} to{background-position:-136px 0}}
+.divisor{height:1px; background:var(--linha); max-width:1052px; margin:0 auto;}
+[data-tema="escuro"] .divisor{display:none;}
+[data-tema="escuro"] .divisor-sempre{display:block;}
+
+/* ---------- seções ---------- */
+section.bloco{padding:84px 0;}
+.etiqueta{font-family:var(--mono); font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; color:var(--destaque); margin-bottom:14px;}
+.bloco h2{font-size:clamp(1.7rem, 3.2vw, 2.4rem); line-height:1.14; max-width:24ch;}
+.lide{margin-top:16px; color:var(--suave); max-width:58ch; line-height:1.7;}
+
+/* sobre */
+.sobre-grid{display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center;}
+.sobre-grid.sem-foto{grid-template-columns:1fr;}
+.sobre-texto p{margin-top:16px; color:var(--suave); line-height:1.75; max-width:60ch;}
+.sobre-foto img{width:100%; aspect-ratio:5/4; object-fit:cover; border-radius:calc(var(--raio) * 2);}
+.comodidades{margin-top:26px; display:flex; flex-wrap:wrap; gap:10px; list-style:none;}
+.comodidades li{font-size:.8rem; border:1px solid var(--linha-forte); background:var(--fundo-2); padding:8px 14px; border-radius:20px; display:flex; gap:7px; align-items:center;}
+.comodidades li::before{content:'✓'; color:var(--destaque); font-weight:700;}
+
+/* serviços */
+.servicos{margin-top:44px; display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:36px 48px;}
+.grupo h3{font-size:1.15rem; color:var(--destaque); padding-bottom:12px; margin-bottom:6px; border-bottom:1px solid var(--linha-forte);}
+.item{display:flex; justify-content:space-between; gap:16px; padding:14px 0; border-bottom:1px solid var(--linha);}
+.item:last-child{border-bottom:0;}
+.item-nome{font-weight:700; font-size:.97rem;}
+.item-desc{font-size:.84rem; color:var(--suave); margin-top:3px;}
+.item-preco{font-family:var(--mono); font-weight:600; white-space:nowrap; color:var(--texto);}
+.servicos-nota{margin-top:24px; font-family:var(--mono); font-size:.78rem; color:var(--suave);}
+[data-tema="escuro"] .servicos{background:var(--fundo-2); border:1px solid var(--linha); padding:8px; gap:0;}
+[data-tema="escuro"] .grupo{border:1px dashed var(--linha-forte); padding:28px 30px; margin:0;}
+[data-tema="escuro"] .grupo + .grupo{border-left-style:dashed;}
+[data-tema="escuro"] .grupo h3{text-align:center; letter-spacing:.14em; border-bottom:0;}
+[data-tema="escuro"] .item{border-bottom-style:dotted;}
+[data-tema="escuro"] .item-preco{color:var(--destaque);}
+
+/* galeria */
+.galeria{margin-top:44px; display:grid; grid-template-columns:repeat(3, 1fr); gap:14px;}
+.galeria figure{position:relative; overflow:hidden; border-radius:var(--raio); background:var(--fundo-2);}
+.galeria img{width:100%; aspect-ratio:4/5; object-fit:cover; transition:transform .5s ease;}
+.galeria figure:hover img{transform:scale(1.04);}
+.galeria figcaption{
+  position:absolute; left:10px; bottom:10px; font-family:var(--mono); font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  background:rgba(0,0,0,.6); color:#fff; padding:5px 9px; border-radius:2px;
+}
+.galeria-link{margin-top:22px; display:inline-block; font-family:var(--mono); font-size:.8rem; color:var(--destaque); text-decoration:none; border-bottom:1px solid currentColor;}
+
+/* equipe */
+.equipe{margin-top:44px; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1px; background:var(--linha); border:1px solid var(--linha);}
+.pessoa{background:var(--fundo); padding:28px 24px;}
+.avatar{width:56px; height:56px; border-radius:50%; background:var(--destaque); color:var(--sobre-destaque); display:flex; align-items:center; justify-content:center; font-family:var(--display); font-size:1.3rem; margin-bottom:14px; overflow:hidden;}
+.avatar img{width:100%; height:100%; object-fit:cover;}
+.pessoa h3{font-size:1.1rem;}
+.pessoa .cargo{font-family:var(--mono); font-size:.74rem; color:var(--destaque);}
+.pessoa p{margin-top:10px; font-size:.87rem; color:var(--suave); line-height:1.55;}
+
+/* avaliações */
+.nota{margin-top:40px; display:flex; align-items:center; gap:18px; flex-wrap:wrap;}
+.nota-num{font-family:var(--display); font-size:3rem; color:var(--destaque); line-height:1;}
+.estrelas{color:var(--destaque); letter-spacing:2px;}
+.nota-total{font-family:var(--mono); font-size:.8rem; color:var(--suave);}
+.depoimentos{margin-top:32px; display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;}
+.depoimento{background:var(--fundo-2); border:1px solid var(--linha); border-radius:var(--raio); padding:24px;}
+.depoimento p{font-style:italic; line-height:1.6; font-size:.93rem;}
+.depoimento .autor{margin-top:14px; font-family:var(--mono); font-size:.74rem; color:var(--suave);}
+
+/* contato */
+.contato{margin-top:44px; display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--linha); border:1px solid var(--linha); border-radius:var(--raio); overflow:hidden;}
+.contato-info{background:var(--fundo); padding:32px;}
+.contato-info h3{font-family:var(--mono); font-size:.74rem; letter-spacing:.1em; text-transform:uppercase; color:var(--destaque); margin:0 0 12px; font-weight:600;}
+.contato-info h3:not(:first-child){margin-top:26px;}
+.linha-info{display:flex; justify-content:space-between; gap:14px; padding:9px 0; border-bottom:1px solid var(--linha); font-size:.93rem;}
+.linha-info:last-of-type{border-bottom:0;}
+.linha-info span:first-child{color:var(--suave);}
+.linha-info span:last-child{text-align:right;}
+.endereco{font-size:.95rem; line-height:1.6;}
+.contato-links{margin-top:22px; display:flex; flex-wrap:wrap; gap:10px;}
+.contato-links a{font-size:.82rem; text-decoration:none; border:1px solid var(--linha-forte); padding:8px 14px; border-radius:var(--raio);}
+.contato-links a:hover{border-color:var(--destaque); color:var(--destaque);}
+.mapa{background:var(--fundo-2); min-height:340px; position:relative;}
+.mapa iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+
+/* cta final */
+.final{text-align:center; padding:96px 0 110px; background:var(--fundo-2);}
+.final h2{margin:0 auto; max-width:22ch; font-size:clamp(1.7rem, 3.4vw, 2.5rem);}
+.final .acoes{justify-content:center;}
+
+/* rodapé */
+footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
+.rodape-inner{display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap; font-family:var(--mono); font-size:.72rem; color:var(--suave);}
+.rodape-inner a{color:var(--destaque); text-decoration:none;}
+
+/* botão flutuante */
+.wa-flutuante{
+  position:fixed; right:18px; bottom:18px; z-index:55; width:58px; height:58px; border-radius:50%;
+  background:var(--wa); display:flex; align-items:center; justify-content:center;
+  box-shadow:0 10px 26px rgba(0,0,0,.3); transition:transform .2s;
+}
+.wa-flutuante:hover{transform:scale(1.07);}
+.wa-flutuante svg{width:28px; height:28px;}
+
+/* animação de entrada (só com JS ativo) */
+.js .revelar{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
+.js .revelar.in{opacity:1; transform:none;}
+
+@media (max-width:860px){
+  .menu{display:none;}
+  .capa{padding:36px 0 56px;}
+  .capa-grid, .sobre-grid, .contato{grid-template-columns:1fr;}
+  .capa-grid{gap:36px;}
+  [data-tema="claro"] .capa-foto::after{display:none;}
+  .capa-foto img{aspect-ratio:4/3;}
+  .galeria{grid-template-columns:1fr 1fr; gap:10px;}
+  section.bloco{padding:64px 0;}
+  [data-tema="escuro"] .grupo{padding:22px 18px;}
+  .contato-info{padding:24px 20px;}
+  .mapa{min-height:280px;}
+  .numeros{gap:24px;}
+}
+@media (max-width:420px){
+  .wrap{padding:0 18px;}
+  .topo-inner{padding:12px 18px;}
+  .btn-wa-topo span{display:none;}
+  .acoes .btn{width:100%;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .js .revelar{opacity:1; transform:none; transition:none;}
+  [data-tema="escuro"] .poste{animation:none;}
+  .galeria img{transition:none;}
+}
+
+[data-tema]{--destaque:#5C6F5E;}
+[data-tema]{--display:'Italiana', Georgia, serif; --corpo:'Montserrat', system-ui, sans-serif; --display-peso:400; --display-caixa:none;}
+[data-tema]{--fundo:#F6F5F1;--fundo-2:#ECEBE4;--linha:#DCDAD1;--linha-forte:#C9C6BB;--raio:0px;}
+@media (min-width:861px){.capa-grid{grid-template-columns:.95fr 1.05fr;}}
+.capa-foto{order:-1;}
+.capa-foto img{aspect-ratio:3/4;border-radius:0;}
+.capa-foto::after{display:none!important;}
+.capa h1{font-size:clamp(2.7rem,6.2vw,4.8rem);line-height:1.02;}
+.btn,.btn-wa-topo{border-radius:0;text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;}
+.sobre-foto img,.galeria figure,.depoimento{border-radius:0;}
+.galeria{gap:4px;}
+@media (max-width:860px){.capa-foto{order:0;}}
+:root{--sobre-destaque:#FFFFFF;}
+</style>
+</head>
+<body data-tema="claro">
+<div class="faixa"><span><b>Modelo de demonstração</b> — negócio, fotos, preços e avaliações ilustrativos</span><a href="https://ig.me/m/inksites.br" target="_blank" rel="noopener">Quero um site assim</a></div>
+<header class="topo">
+  <div class="topo-inner">
+    <a class="marca" href="#" aria-label="Maison Íris Cabelos — início"><span class="marca-nome">Maison Íris<span>.</span></span></a>
+    <nav aria-label="Seções"><ul class="menu"><li><a href="#servicos">Serviços</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#avaliacoes">Avaliações</a></li><li><a href="#contato">Localização</a></li></ul></nav>
+    <a class="btn-wa-topo" href="https://ig.me/m/inksites.br" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.28 1.2-1.77 1.24-.45.05-1.03.07-1.66-.1-.38-.11-.87-.28-1.5-.55-2.64-1.14-4.36-3.8-4.5-3.98-.13-.18-1.08-1.43-1.08-2.73s.68-1.93.92-2.2c.24-.26.53-.33.7-.33.18 0 .35 0 .5.01.16.01.38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.47-.09.18-.14.29-.27.44-.13.16-.28.35-.4.47-.13.13-.27.27-.11.53.15.26.68 1.12 1.46 1.82 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.07.16-.18.65-.76.82-1.02.18-.26.35-.22.58-.13.24.09 1.5.71 1.76.84.26.13.44.2.5.31.06.11.06.63-.16 1.25z"/></svg><span>Quero um site assim</span></a>
+  </div>
+</header>
+<main>
+<section class="capa">
+  <div class="wrap capa-grid">
+    <div>
+      <div class="selo">Cabelo &amp; coloração · Cabo Branco</div>
+      <h1 class="revelar">O corte e a cor que <em>combinam</em> com você.</h1>
+      <p class="capa-sub revelar">Corte, mechas, coloração e tratamentos pensados pro seu tipo de cabelo. Avaliação antes de começar e horário marcado pelo WhatsApp.</p>
+      <div class="acoes revelar">
+        <a class="btn btn-wa" href="https://ig.me/m/inksites.br" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.28 1.2-1.77 1.24-.45.05-1.03.07-1.66-.1-.38-.11-.87-.28-1.5-.55-2.64-1.14-4.36-3.8-4.5-3.98-.13-.18-1.08-1.43-1.08-2.73s.68-1.93.92-2.2c.24-.26.53-.33.7-.33.18 0 .35 0 .5.01.16.01.38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.47-.09.18-.14.29-.27.44-.13.16-.28.35-.4.47-.13.13-.27.27-.11.53.15.26.68 1.12 1.46 1.82 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.07.16-.18.65-.76.82-1.02.18-.26.35-.22.58-.13.24.09 1.5.71 1.76.84.26.13.44.2.5.31.06.11.06.63-.16 1.25z"/></svg>Agendar no WhatsApp</a>
+        <a class="btn btn-contorno" href="#servicos">Ver serviços e preços</a>
+      </div>
+      <div class="numeros revelar"><div><strong>Avaliação</strong>antes de cada química</div><div><strong>Pix e cartão</strong>em até 3x</div><div><strong>Ter–Sáb</strong>das 9h às 19h</div></div>
+    </div>
+    <div class="capa-foto revelar"><img src="fotos/cabelo/capa.jpg" alt="Cabeleireira finalizando o cabelo de uma cliente" fetchpriority="high"></div>
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div>
+<section class="bloco" id="sobre">
+  <div class="wrap sobre-grid">
+    <div class="sobre-texto">
+      <div class="etiqueta">A maison</div>
+      <h2 class="revelar">Cabelo saudável primeiro, cor depois.</h2>
+      <p class="revelar">Antes de qualquer mecha ou coloração, a gente avalia os fios e conversa sobre o que você quer. Se o cabelo precisar de tratamento antes, você fica sabendo na hora.</p><p class="revelar">Produtos profissionais, lavatório com massagem e um espaço pensado pra você passar a tarde sem pressa.</p>
+      <ul class="comodidades revelar"><li>Avaliação dos fios</li><li>Produtos profissionais</li><li>Climatizado</li><li>Wi-Fi grátis</li></ul>
+    </div>
+    <div class="sobre-foto revelar"><img src="fotos/cabelo/sobre.jpg" alt="Lavatórios do salão" loading="lazy"></div>
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div>
+<section class="bloco" id="servicos">
+  <div class="wrap">
+    <div class="etiqueta">Serviços e preços</div>
+    <h2 class="revelar">Serviços e valores</h2>
+    
+    <div class="servicos">
+      <div class="grupo revelar">
+        <h3>Corte &amp; finalização</h3>
+        <div class="item"><div><div class="item-nome">Corte feminino</div><div class="item-desc">Com lavagem e finalização</div></div><div class="item-preco">R$ 90</div></div><div class="item"><div><div class="item-nome">Escova</div><div class="item-desc">Lisa ou modelada</div></div><div class="item-preco">a partir de R$ 55</div></div><div class="item"><div><div class="item-nome">Penteado</div><div class="item-desc">Festas e eventos</div></div><div class="item-preco">a partir de R$ 150</div></div>
+      </div><div class="grupo revelar">
+        <h3>Cor &amp; tratamento</h3>
+        <div class="item"><div><div class="item-nome">Coloração</div><div class="item-desc">Raiz ou global</div></div><div class="item-preco">a partir de R$ 140</div></div><div class="item"><div><div class="item-nome">Mechas / luzes</div><div class="item-desc">Inclui tonalização</div></div><div class="item-preco">a partir de R$ 350</div></div><div class="item"><div><div class="item-nome">Hidratação profunda</div><div class="item-desc">Com escova</div></div><div class="item-preco">R$ 110</div></div><div class="item"><div><div class="item-nome">Reconstrução</div><div class="item-desc">Para fios danificados</div></div><div class="item-preco">R$ 160</div></div>
+      </div>
+    </div>
+    <p class="servicos-nota revelar">Valores de química dependem do comprimento — confirmamos na avaliação</p>
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div><section class="bloco" id="galeria">
+  <div class="wrap">
+    <div class="etiqueta">Trabalhos</div>
+    <h2 class="revelar">Galeria</h2>
+    <div class="galeria">
+      <figure class="revelar"><img src="fotos/cabelo/g1.jpg" alt="Coloração" loading="lazy"><figcaption>Coloração</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g2.jpg" alt="Corte" loading="lazy"><figcaption>Corte</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g3.jpg" alt="Escova" loading="lazy"><figcaption>Escova</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g4.jpg" alt="Finalização" loading="lazy"><figcaption>Finalização</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g5.jpg" alt="O espaço" loading="lazy"><figcaption>O espaço</figcaption></figure>
+    </div>
+    
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div><section class="bloco" id="equipe">
+  <div class="wrap">
+    <div class="etiqueta">Equipe</div>
+    <h2 class="revelar">Quem vai te atender</h2>
+    <div class="equipe">
+      <div class="pessoa revelar"><div class="avatar">Í</div><h3>Íris</h3><div class="cargo">Fundadora · colorista</div><p>Mechas, coloração e correção de cor.</p></div><div class="pessoa revelar"><div class="avatar">P</div><h3>Paula</h3><div class="cargo">Cabeleireira</div><p>Corte, escova e penteado.</p></div><div class="pessoa revelar"><div class="avatar">D</div><h3>Débora</h3><div class="cargo">Terapeuta capilar</div><p>Hidratação e reconstrução.</p></div>
+    </div>
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div><section class="bloco" id="avaliacoes">
+  <div class="wrap">
+    <div class="etiqueta">Quem já passou por aqui</div>
+    <h2 class="revelar">Avaliações</h2>
+    <div class="nota revelar"><span class="nota-num">4,8</span><div><div class="estrelas" aria-hidden="true">★★★★★</div><div class="nota-total">26 avaliações no Google</div></div></div>
+    <div class="depoimentos">
+      <blockquote class="depoimento revelar"><p>“Fiz mechas sem medo: ela avaliou meu cabelo antes e explicou tudo. Ficou exatamente como pedi.”</p><div class="autor">— Cliente (exemplo)</div></blockquote><blockquote class="depoimento revelar"><p>“O preço que estava no site foi o preço que paguei. Sem surpresa.”</p><div class="autor">— Cliente (exemplo)</div></blockquote><blockquote class="depoimento revelar"><p>“Lugar lindo e tranquilo. Saí com o cabelo leve e brilhando.”</p><div class="autor">— Cliente (exemplo)</div></blockquote>
+    </div>
+    
+  </div>
+</section>
+<div class="divisor divisor-sempre" aria-hidden="true"></div>
+<section class="bloco" id="contato">
+  <div class="wrap">
+    <div class="etiqueta">Como chegar</div>
+    <h2 class="revelar">Localização e contato</h2>
+    <div class="contato revelar">
+      <div class="contato-info">
+        <h3>Endereço</h3><p class="endereco">Avenida Exemplo, 789 — Cabo Branco, João Pessoa/PB</p>
+        <h3>Horário</h3><div class="linha-info"><span>Terça a sexta</span><span>09:00 às 19:00</span></div><div class="linha-info"><span>Sábado</span><span>08:00 às 18:00</span></div><div class="linha-info"><span>Domingo e segunda</span><span>Fechado</span></div>
+        <h3>Contato</h3>
+        <div class="linha-info"><span>WhatsApp</span><span>(81) 9 0000-0000</span></div>
+        
+        <div class="contato-links">
+          <a href="https://ig.me/m/inksites.br" target="_blank" rel="noopener">WhatsApp</a>
+          
+          <a href="https://www.google.com/maps/search/?api=1&query=Cabo%20Branco%2C%20Jo%C3%A3o%20Pessoa%20-%20PB" target="_blank" rel="noopener">Abrir no Google Maps</a>
+        </div>
+      </div>
+      <div class="mapa"><iframe src="https://www.google.com/maps?q=Cabo%20Branco%2C%20Jo%C3%A3o%20Pessoa%20-%20PB&output=embed" title="Mapa: Maison Íris Cabelos" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+  </div>
+</section>
+<section class="final">
+  <div class="wrap">
+    <div class="etiqueta">Bora marcar</div>
+    <h2 class="revelar">Seu próximo cabelo começa com uma conversa.</h2>
+    <div class="acoes revelar"><a class="btn btn-wa" href="https://ig.me/m/inksites.br" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.28 1.2-1.77 1.24-.45.05-1.03.07-1.66-.1-.38-.11-.87-.28-1.5-.55-2.64-1.14-4.36-3.8-4.5-3.98-.13-.18-1.08-1.43-1.08-2.73s.68-1.93.92-2.2c.24-.26.53-.33.7-.33.18 0 .35 0 .5.01.16.01.38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.47-.09.18-.14.29-.27.44-.13.16-.28.35-.4.47-.13.13-.27.27-.11.53.15.26.68 1.12 1.46 1.82 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.07.16-.18.65-.76.82-1.02.18-.26.35-.22.58-.13.24.09 1.5.71 1.76.84.26.13.44.2.5.31.06.11.06.63-.16 1.25z"/></svg>Agendar no WhatsApp</a></div>
+  </div>
+</section>
+</main>
+<footer class="rodape">
+  <div class="wrap rodape-inner">
+    <span>Maison Íris Cabelos — modelo de demonstração</span>
+    <span>site por <a href="https://inksites.github.io/" target="_blank" rel="noopener">@inksites.br</a></span>
+  </div>
+</footer>
+<a class="wa-flutuante" href="https://ig.me/m/inksites.br" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp"><svg viewBox="0 0 24 24" fill="#0B2415" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.28 1.2-1.77 1.24-.45.05-1.03.07-1.66-.1-.38-.11-.87-.28-1.5-.55-2.64-1.14-4.36-3.8-4.5-3.98-.13-.18-1.08-1.43-1.08-2.73s.68-1.93.92-2.2c.24-.26.53-.33.7-.33.18 0 .35 0 .5.01.16.01.38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.47-.09.18-.14.29-.27.44-.13.16-.28.35-.4.47-.13.13-.27.27-.11.53.15.26.68 1.12 1.46 1.82 1 .89 1.85 1.17 2.11 1.3.26.13.41.11.56-.07.16-.18.65-.76.82-1.02.18-.26.35-.22.58-.13.24.09 1.5.71 1.76.84.26.13.44.2.5.31.06.11.06.63-.16 1.25z"/></svg></a>
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var els = document.querySelectorAll('.revelar');
+  if(!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in');}); return; }
+  var io = new IntersectionObserver(function(en){ en.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }); }, {threshold:.12});
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
