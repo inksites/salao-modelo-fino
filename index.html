@@ -14,10 +14,10 @@
 <meta property="og:title" content="Maison Íris Cabelos — Cabelo &amp; coloração em Cabo Branco, João Pessoa">
 <meta property="og:description" content="Corte, mechas, coloração e tratamentos pensados pro seu tipo de cabelo. Avaliação antes de começar e horário marcado pelo WhatsApp.">
 <meta property="og:url" content="https://inksites.github.io/salao-modelo-fino/">
-<meta property="og:image" content="https://inksites.github.io/salao-modelo-fino/fotos/cabelo/capa.jpg">
+<meta property="og:image" content="https://inksites.github.io/salao-modelo-fino/fotos/iris-v2/capa.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%235C6F5E%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2255%25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-weight%3D%22700%22%20font-size%3D%2236%22%20fill%3D%22%23FFFFFF%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E">
-<link rel="preload" as="image" href="fotos/cabelo/capa.jpg">
+<link rel="preload" as="image" href="fotos/iris-v2/capa.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -133,9 +133,9 @@ header.topo{
 .numeros div{font-size:.8rem; color:var(--suave);}
 .numeros strong{display:block; font-family:var(--display); font-size:1.5rem; color:var(--texto); font-weight:var(--display-peso);}
 .capa-foto{position:relative;}
-.capa-foto img{width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:calc(var(--raio) * 2);}
+.capa-foto :is(img,video){width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:calc(var(--raio) * 2);}
 [data-tema="claro"] .capa-foto::after{content:''; position:absolute; inset:14px -14px -14px 14px; border:1px solid var(--destaque); border-radius:calc(var(--raio) * 2); z-index:-1;}
-[data-tema="escuro"] .capa-foto img{filter:saturate(.85) contrast(1.05);}
+[data-tema="escuro"] .capa-foto :is(img,video){filter:saturate(.85) contrast(1.05);}
 
 /* ---------- faixa de poste (assinatura do tema escuro) ---------- */
 .poste{display:none;}
@@ -255,7 +255,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
   .capa-grid, .sobre-grid, .contato{grid-template-columns:1fr;}
   .capa-grid{gap:36px;}
   [data-tema="claro"] .capa-foto::after{display:none;}
-  .capa-foto img{aspect-ratio:4/3;}
+  .capa-foto :is(img,video){aspect-ratio:4/3;}
   .galeria{grid-template-columns:1fr 1fr; gap:10px;}
   section.bloco{padding:64px 0;}
   [data-tema="escuro"] .grupo{padding:22px 18px;}
@@ -281,7 +281,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
 [data-tema]{--fundo:#F6F5F1;--fundo-2:#ECEBE4;--linha:#DCDAD1;--linha-forte:#C9C6BB;--raio:0px;}
 @media (min-width:861px){.capa-grid{grid-template-columns:.95fr 1.05fr;}}
 .capa-foto{order:-1;}
-.capa-foto img{aspect-ratio:3/4;border-radius:0;}
+.capa-foto :is(img,video){aspect-ratio:3/4;border-radius:0;}
 .capa-foto::after{display:none!important;}
 .capa h1{font-size:clamp(2.7rem,6.2vw,4.8rem);line-height:1.02;}
 .btn,.btn-wa-topo{border-radius:0;text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;}
@@ -313,7 +313,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
       </div>
       <div class="numeros revelar"><div><strong>Avaliação</strong>antes de cada química</div><div><strong>Pix e cartão</strong>em até 3x</div><div><strong>Ter–Sáb</strong>das 9h às 19h</div></div>
     </div>
-    <div class="capa-foto revelar"><img src="fotos/cabelo/capa.jpg" alt="Cabeleireira finalizando o cabelo de uma cliente" fetchpriority="high"></div>
+    <div class="capa-foto revelar"><img src="fotos/iris-v2/capa.jpg" alt="Cliente de cabelo cacheado sorrindo no espelho depois da finalização" fetchpriority="high"></div>
   </div>
 </section>
 <div class="divisor divisor-sempre" aria-hidden="true"></div>
@@ -325,7 +325,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
       <p class="revelar">Antes de qualquer mecha ou coloração, a gente avalia os fios e conversa sobre o que você quer. Se o cabelo precisar de tratamento antes, você fica sabendo na hora.</p><p class="revelar">Produtos profissionais, lavatório com massagem e um espaço pensado pra você passar a tarde sem pressa.</p>
       <ul class="comodidades revelar"><li>Avaliação dos fios</li><li>Produtos profissionais</li><li>Climatizado</li><li>Wi-Fi grátis</li></ul>
     </div>
-    <div class="sobre-foto revelar"><img src="fotos/cabelo/sobre.jpg" alt="Lavatórios do salão" loading="lazy"></div>
+    <div class="sobre-foto revelar"><img src="fotos/iris-v2/sobre.jpg" alt="O salão, claro, com espelhos dourados e plantas" loading="lazy"></div>
   </div>
 </section>
 <div class="divisor divisor-sempre" aria-hidden="true"></div>
@@ -337,7 +337,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
     <div class="servicos">
       <div class="grupo revelar">
         <h3>Corte &amp; finalização</h3>
-        <div class="item"><div><div class="item-nome">Corte feminino</div><div class="item-desc">Com lavagem e finalização</div></div><div class="item-preco">R$ 90</div></div><div class="item"><div><div class="item-nome">Escova</div><div class="item-desc">Lisa ou modelada</div></div><div class="item-preco">a partir de R$ 55</div></div><div class="item"><div><div class="item-nome">Penteado</div><div class="item-desc">Festas e eventos</div></div><div class="item-preco">a partir de R$ 150</div></div>
+        <div class="item"><div><div class="item-nome">Corte feminino</div><div class="item-desc">Com lavagem e finalização</div></div><div class="item-preco">R$ 90</div></div><div class="item"><div><div class="item-nome">Finalização de cachos</div><div class="item-desc">Fitagem, difusor e day after</div></div><div class="item-preco">a partir de R$ 80</div></div><div class="item"><div><div class="item-nome">Escova</div><div class="item-desc">Lisa ou modelada</div></div><div class="item-preco">a partir de R$ 55</div></div><div class="item"><div><div class="item-nome">Penteado</div><div class="item-desc">Festas e eventos</div></div><div class="item-preco">a partir de R$ 150</div></div><div class="item"><div><div class="item-nome">Tranças</div><div class="item-desc">Box braids e nagô</div></div><div class="item-preco">a partir de R$ 250</div></div>
       </div><div class="grupo revelar">
         <h3>Cor &amp; tratamento</h3>
         <div class="item"><div><div class="item-nome">Coloração</div><div class="item-desc">Raiz ou global</div></div><div class="item-preco">a partir de R$ 140</div></div><div class="item"><div><div class="item-nome">Mechas / luzes</div><div class="item-desc">Inclui tonalização</div></div><div class="item-preco">a partir de R$ 350</div></div><div class="item"><div><div class="item-nome">Hidratação profunda</div><div class="item-desc">Com escova</div></div><div class="item-preco">R$ 110</div></div><div class="item"><div><div class="item-nome">Reconstrução</div><div class="item-desc">Para fios danificados</div></div><div class="item-preco">R$ 160</div></div>
@@ -351,7 +351,7 @@ footer.rodape{border-top:1px solid var(--linha); padding:28px 0 96px;}
     <div class="etiqueta">Trabalhos</div>
     <h2 class="revelar">Galeria</h2>
     <div class="galeria">
-      <figure class="revelar"><img src="fotos/cabelo/g1.jpg" alt="Coloração" loading="lazy"><figcaption>Coloração</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g2.jpg" alt="Corte" loading="lazy"><figcaption>Corte</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g3.jpg" alt="Escova" loading="lazy"><figcaption>Escova</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g4.jpg" alt="Finalização" loading="lazy"><figcaption>Finalização</figcaption></figure><figure class="revelar"><img src="fotos/cabelo/g5.jpg" alt="O espaço" loading="lazy"><figcaption>O espaço</figcaption></figure>
+      <figure class="revelar"><img src="fotos/iris-v2/g1.jpg" alt="Mechas e loiro" loading="lazy"><figcaption>Mechas e loiro</figcaption></figure><figure class="revelar"><img src="fotos/iris-v2/g2.jpg" alt="Tranças" loading="lazy"><figcaption>Tranças</figcaption></figure><figure class="revelar"><img src="fotos/iris-v2/g3.jpg" alt="Coloração" loading="lazy"><figcaption>Coloração</figcaption></figure>
     </div>
     
   </div>
